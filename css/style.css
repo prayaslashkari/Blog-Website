@@ -1,0 +1,212 @@
+*{
+    font-family: Montserrat;   
+}
+.wrap{
+    /* border: red solid 1px; */
+    max-width: 1150px;
+    width: 85%;
+    margin: 0 auto;
+}
+.wrap>div{
+    /* border : green solid 2px; */
+    margin: 4px 4px 4px 4px;
+    
+}
+
+.main-header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 100%;
+}
+
+.main-header>div{
+    /* border:pink solid 2px; */
+    margin: 4px 4px 4px 4px;
+}
+
+#logo-main
+{
+    width: 500px;
+}
+
+.logo{
+    line-height: 50px;
+}
+.main-header{
+    max-width: 80%;
+    position: relative;
+    left: 12%;
+    margin-left: -50px;
+    
+}
+
+.container ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+    background-color: rgb(104, 104, 253);
+    padding: 8px 16px;
+}
+
+.container ul li{
+    float: left;   
+    color: #000;
+}
+
+.container ul li a{
+    transition: 0.5s ease ;
+    text-decoration: none;
+    color: cornsilk;
+    padding: 8px 16px;
+
+}
+
+.container ul li a:hover{
+    background-color:rgb(74, 74, 158);
+    color:white;
+}
+
+.header1{
+    text-align: center;
+    font-family: monospace;
+}
+
+.header2{
+    text-align: center;
+    font-family: monospace;
+}
+
+.header3{
+    text-align: center;
+    font-family: monospace;
+}
+
+.content>div{
+    /* border: yellow solid 2px; */
+    margin: 80px 4px 4px 4px;
+    
+}
+
+.post1, .post2, .post3, .post4, .post5{
+    padding: 0 150px 0 150px;
+    line-height: 25px;
+}
+
+
+
+img{
+    float : right;
+    padding-left: 23px;
+    padding-bottom: 23px;
+    
+}
+
+
+.footer
+{
+    text-align: center;
+    
+}
+
+.footer-content{
+    margin-top: 20px;
+}
+
+.days>div{
+    /* border: springgreen solid 1px; */
+    text-align: center;
+    opacity: 7%;
+}
+
+.days{
+    display: grid;
+    grid-template-rows: auto;
+    width: auto;
+    text-align: center;
+    position: absolute;
+    margin-top: 5px;
+}
+.day1{
+    font-size: 300px;
+    z-index: -1;
+    margin-top: 200px;
+}
+
+.day2{
+    font-size: 300px;
+    z-index: -1;
+    margin-top: 200px;
+}
+
+.day3{
+    font-size: 300px;
+    z-index: -1;
+    margin-top: 300px;
+}
+
+.day4{
+    font-size: 300px;
+    z-index: -1;
+    margin-top: 300px;
+}
+
+.day5{
+    font-size: 300px;
+    z-index: -1;
+    margin-top: 300px;
+}
+
+/* SOCIAL MEDIA BUTTON */
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: black;
+    color: white;
+  }
+
+
+  /* SOCIAl MEDIA BUTTON ABOVE */
